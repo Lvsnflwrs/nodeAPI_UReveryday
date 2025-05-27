@@ -1,0 +1,24 @@
+di folder node-api
+
+npm install
+
+.env.example ganti jadi .env janlup, buat .env.example nya lagi buat anggota lain
+
+npm start
+
+
+di folder Tubes_Everyday
+
+clone dulu
+
+composer install
+
+.env.example ganti jadi .env janlup, buat .env.example nya lagi buat anggota lain
+
+php artisan key:generate
+
+php artisan migrate
+
+php artisan serve
+
+ 

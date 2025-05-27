@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECEDFC;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+.header img {
+    height: 40px;
+}
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+.header .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.header .nav a.sell {
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.dropdown {
+    bottom: 15px;
+    left: 10px;
+    position: relative;
+    display: inline-block;
+    color: black;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 1px #000000 solid;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.recommendation {
+    padding: 20px;
+}
+.recommendation h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.recommendation table {
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+.recommendation table tr{
+    justify-content: space-around;
+}
+.recommendation table td {
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+.recommendation table img {
+    border-radius: 10px;
+}
+.recommendation .product-image {
+    text-align: center;
+}
+.recommendation .info {
+    padding: 10px;
+}
+.recommendation .info .name {
+    font-weight: bold;
+}
+.recommendation .favorite {
+    float: right;
+    color: red;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.search-form {
+    position: relative;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    outline: none;
+    width: 700px; 
+    transition: border-color 0.3s ease;
+}
+
+.search-form input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.search-form .search-button {
+    position: absolute;
+    left: 700px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.search-form .search-button:hover {
+    color: #007bff; 
+}
+
+.detail-button {
+    margin-left: 250px;
+    width: 80px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}

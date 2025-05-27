@@ -1,0 +1,216 @@
+* body, html {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ECEDFC;
+    text-transform: capitalize;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#dropdwn{
+    border: transparent;
+    font-size: 14px;
+}
+
+#dropdwn:active{
+    border: transparent;
+    font-size: 14px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icons a{
+    color: black;
+}
+
+.namauser{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.btnsell button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageuser{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.imageuser button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.fotouser{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.followers{
+    display: flex;
+    gap: 50px;
+}
+
+.followers p{
+    font-size: 20px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input form{
+    gap: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+form input{
+    height: 30px;
+    border-radius: 10px;
+}
+
+form textarea{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logout{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: red;
+    border: transparent;
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.save{
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: green;
+    border: transparent;
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.mb{
+    margin-top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+.header img {
+    height: 40px;
+}
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+.header .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.header .nav a.sell {
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.dropdown {
+    bottom: 15px;
+    left: 10px;
+    position: relative;
+    display: inline-block;
+    color: black;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 1px #000000 solid;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
